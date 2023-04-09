@@ -1,0 +1,42 @@
+.section{
+    padding-top: 129px;
+    &__div{
+        display: flex;
+        align-items: center;
+        padding-bottom: 155px;
+        &_img{
+            position: absolute;
+            left: 0;
+            top: 250px;
+        }
+        &_title{
+            padding-right: 30px;
+            &_text{
+                font-family: 'Livvic';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 100px;
+                line-height: 100px;
+                width: 635px;
+                height: 200px;
+                &-span{
+                    color: #F67E7E;
+                }
+            }
+        }
+        &_text{
+            font-family: 'Livvic';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 28px;
+            &_img{
+                padding-bottom: 79px;
+            }
+        }
+    }
+    &__img{
+        display: flex;
+        justify-content: end;
+    }
+}

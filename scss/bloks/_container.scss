@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: #ffffff;
+    font-family: 'Livvic',sans-serif;
+}
+.container{
+    width: 100%;
+    max-width: 1110px;
+    margin: auto;
+}
+.wrapper{
+    background:  #014E56;
+    &_color{
+        background: #012F34;
+        &-2{
+            background: #004047;
+        }
+        &-3{
+            background: #F67E7E;
+        }
+        &-4{
+            background: #002529;
+        }
+    }
+}
+.wrappers{
+    background: #004047;
+    &-2{
+        background: #012F34;
+    }
+}

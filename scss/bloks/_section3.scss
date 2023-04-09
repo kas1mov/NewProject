@@ -1,0 +1,79 @@
+.section3{
+    &_logo{
+        position: absolute;
+        width: 147px;
+        height: 100px;
+        left: 0;
+        top: 1390px;
+        &-2{
+            position: absolute;
+            width: 200px;
+            // height: 200px;
+            right: 0;
+            top: 2025.5px;
+
+        }
+    }
+    &__div{
+        padding-bottom: 140px;
+        &_title{
+            padding-top: 140px;
+            padding-bottom: 56px;
+            &-title{
+                font-family: 'Livvic',sans-serif;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 48px;
+                text-align: center;
+                color: #FFFFFF;
+            }
+            &-span{
+                color: #79C8C7;
+            }
+        }
+        &_cards{
+            display: flex;
+            justify-content: space-between;
+            &-card{
+                &-text{
+                    position: relative;
+                    bottom: 23px;
+                    font-family: 'Livvic',sans-serif;
+                    font-style: normal;
+                    font-weight: 600;
+                    font-size: 15px;
+                    line-height: 25px;
+                    text-align: center;
+                    color: #FFFFFF;
+                    // width: 350px;
+                    // height: 100px;
+                }
+                &-title{
+                    font-family: 'Livvic',sans-serif;
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 28px;
+                    text-align: center;
+                    color: #79C8C7;
+                    padding-top: 24px;
+                    &_text{
+                        font-family: 'Livvic',sans-serif;
+                        font-size: 13px;
+                        line-height: 18px;
+                        text-align: center;
+                    }
+                }
+                &-img{
+                    padding-left: 150px;
+                    padding-top: 32px;
+                    padding-bottom:11px ;
+                }
+                &-logo{
+                    padding-left: 150px;
+                }
+            }
+        }
+    }
+}

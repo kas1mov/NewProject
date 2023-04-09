@@ -1,0 +1,47 @@
+.header{
+    &__div{
+        &_logo{
+            padding-right: 80.05px;
+        }
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 73px;
+        &_menu{
+            display: flex;
+            align-items: center;
+            &-text{
+                padding-right: 40px;
+                font-family: 'Livvic',sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 28px;
+            }
+        }
+        &_button{
+            padding-left: 537px;
+        }
+        &_btn{
+            border: 2px solid #FFFFFF;
+            border-radius: 24px;
+            font-family: 'Livvic',sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 17px;
+            line-height: 28px;
+            padding: 9px 32px 11px 33px;
+            background: #014E56;
+        }
+        &_btn:hover{
+            cursor: pointer;
+        }
+        &_btn:active{
+            background: #FFFFFF;
+            color: #002529;
+        }
+    }
+    &__link{
+        text-decoration: none;
+    }
+}

@@ -1,0 +1,61 @@
+.footer{
+    &__div{
+        display: flex;
+        align-items: center;
+        padding-top: 48px;
+        padding-bottom: 48px;
+        &_menu{
+            padding-right: 125.05px;
+            &-img{
+                padding-bottom: 25px;
+            }
+            &-link{
+                display: flex;
+                align-items: center;
+                column-gap: 40px;
+            }
+        }
+        &_adress{
+            width: 445px;
+            height: 100px;
+            padding-right: 125px;
+            &-link{
+                text-decoration: none;
+            }
+            &-text{
+                font-family: 'Livvic',sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 15px;
+                line-height: 25px;
+                color: #FFFFFF;
+                mix-blend-mode: normal;
+                opacity: 0.6;                
+            }
+        }
+        &_networks{
+            &-link{
+                text-decoration: none;
+            }
+            &-logo{
+                display: flex;
+                justify-content: space-between;
+                padding-left: 150px;
+                padding-bottom: 51px;
+                width: 104px;
+                height: 24px;
+            }
+            &-text{
+                font-family: 'Livvic',sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 15px;
+                line-height: 25px;
+                text-align: right;
+                color: #FFFFFF;
+                mix-blend-mode: normal;
+                opacity: 0.6;
+            }
+        }
+    }
+}

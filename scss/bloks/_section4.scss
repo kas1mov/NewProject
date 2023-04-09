@@ -1,0 +1,55 @@
+.section4{
+    &__div{
+        display: flex;
+        align-items: center;
+        &_logo{
+            position: absolute;
+            width: 200px;
+            // height: 244px;
+            left: 0px;
+            top: 2181.5px;
+            &-2{
+                position: absolute;
+                width: 200px;
+                // height: 244px;
+                left: 0px;
+                top: 2019px;
+            }
+        }
+        &_title{
+            font-family: 'Livvic',sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 38px;
+            color: #012F34;
+            padding-top: 76px;
+            padding-bottom: 86px;
+            padding-right: 260px;
+        }
+        &_text{
+            display: flex;
+            align-items: center;
+            padding-left: 75px;
+        }
+        &_btn{
+            border: 2px solid #012F34;
+            border-radius: 24px;
+            font-family: 'Livvic',sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 28px;
+            color: #012F34;
+            background: #F67E7E;
+            padding: 9px 32px 11px 33px ;
+        }
+        &_btn:hover{
+            cursor: pointer;
+        }
+        &_btn:active{
+            background: #012F34;
+            color: #ffffff;
+        }
+    }
+}

@@ -1,0 +1,59 @@
+.section2{
+    padding-top: 140px;
+    &__div{
+        display: flex;
+        justify-content: space-between;
+        &_title{
+            &-img{
+                padding-bottom: 54px;
+            }
+            &-text{
+                font-family: 'Livvic',sans-serif;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 48px;
+                line-height: 48px;
+                width: 445px;
+                height: 144px;
+                padding-right: 125px;
+            }
+        }
+        &_text{
+            padding-top:54px ;
+            padding-bottom: 108px;
+            &-item{
+                display: flex;
+                padding-bottom: 32px;
+                &-img{
+                    padding-right: 23px;
+                }
+                &-text{
+                    &_title{
+                        font-family: 'Livvic';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 18px;
+                        line-height: 28px;
+                        color: #F67E7E;
+                        padding-bottom: 16px;
+                    }
+                    &_text{
+                        font-family: 'Livvic';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 15px;
+                        line-height: 25px;
+                        opacity: 0.8;
+                    }
+                }
+            }
+        }
+    }
+    &__logo{
+        position: absolute;
+        width: 100px;
+        height: 244px;
+        right: 0;
+        top: 1145px;
+    }
+}
